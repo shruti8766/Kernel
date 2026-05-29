@@ -24,37 +24,4 @@
 
 ---
 
-# 🖥️ How to Create the Repository on Your Computer (VS Code)
-
-## Step 1: Create the main folder
-
-```bash
-mkdir kernel-security-toolkit
-cd kernel-security-toolkit
-```
-
----
-
-## Step 2: Create each file
-
-For each file, run `nano <filename>` (or use VS Code). Copy the corresponding content from above.
-
-* `README.md`
-* `Makefile`
-* `sec_toolkit.c`
-
-(optional) `test_scripts/` and `notes/` folders and their files.
-
----
-
-## Step 3: Initialize git and push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: kernel security toolkit"
-git remote add origin https://github.com/yourusername/kernel-security-toolkit.git
-git push -u origin main
-```
-
 """
